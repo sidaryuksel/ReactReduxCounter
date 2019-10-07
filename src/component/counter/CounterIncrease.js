@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
-import {increase, decrease}  from '../redux/actions/counterActions';
+import {increase, decrease}  from '../../redux/actions/counterActions';
 import { connect } from 'react-redux';
 
 

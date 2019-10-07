@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Button} from 'reactstrap';
 import { bindActionCreators } from 'redux';
-import { decrease } from '../redux/actions/counterActions';
+import { decrease } from '../../redux/actions/counterActions';
 import {connect} from 'react-redux'
 
 class CounterDecrease extends Component {

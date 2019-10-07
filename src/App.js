@@ -1,21 +1,16 @@
 import React from 'react';
-import CounterIncrease from './component/CounterIncrease';
-import CounterDecrease from './component/CounterDecrease';
-import IncreaseByTen from './component/IncreaseByTen';
-import DecreaseByTen from './component/DecreaseByTen';
-import Counter from './component/Counter';
+import {Switch, Route} from 'react-router-dom';
+import LinkPage from './component/LinkPage';
+import HomePage from './component/HomePage';
+
 
 function App() {
   return (
     <div>
-      Merhaba!
-      <div className="col-md-3">
-        <Counter /><br/><br/>
-        <CounterIncrease /><br/>
-        <CounterDecrease /><br/>
-        <IncreaseByTen /><br/>
-        <DecreaseByTen />
-      </div>
+      <Switch>
+        <Route path="/" exact component={HomePage} />
+        <Route path="/page1" component={LinkPage}/>
+      </Switch>
     </div>
   );
 }

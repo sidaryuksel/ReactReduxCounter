@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { decreaseByTen } from '../redux/actions/counterActions';
+import { decreaseByTen } from '../../redux/actions/counterActions';
 import { bindActionCreators } from 'redux';
 import {connect} from 'react-redux';
 
