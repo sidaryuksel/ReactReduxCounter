@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 export default class HomePage extends Component {
@@ -10,7 +10,9 @@ export default class HomePage extends Component {
                     <h1><font color="#4d6"><b>Merhaba!</b></font></h1>
                 </div>
                 <Link to="/page1">Got to Counter</Link>
-            </div>
+                <br /><br/>
+                <Link to="/saga">Got to Saga Page</Link>
+            </div >
         )
     }
 }
