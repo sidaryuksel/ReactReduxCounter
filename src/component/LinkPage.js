@@ -32,7 +32,7 @@ export default class LinkPage extends Component {
                             </Col>
                         </Row>
                     </Container>
-
+<br/><br/><br/><br/>
                 <Link to="/">Back to Home</Link>
             </div>
         )

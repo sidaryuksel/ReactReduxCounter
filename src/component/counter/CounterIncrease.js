@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
-import {increase, decrease}  from '../../redux/actions/counterActions';
+import {increase}  from '../../redux/actions/counterActions';
 import { connect } from 'react-redux';
 
 
@@ -16,7 +16,7 @@ class CounterIncrease extends Component {
 
 function mapDispatchToProps(dispatch) {
     return {
-        actions:bindActionCreators(decrease, dispatch)
+        actions:bindActionCreators(increase, dispatch)
     };
 }
 

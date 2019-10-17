@@ -12,6 +12,9 @@ export default class HomePage extends Component {
                 <Link to="/page1">Got to Counter</Link>
                 <br /><br/>
                 <Link to="/saga">Got to Saga Page</Link>
+                <br /><br/>
+                <Link to="/timer">Got to Timer Page</Link>
+
             </div >
         )
     }
